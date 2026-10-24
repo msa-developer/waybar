@@ -87,7 +87,6 @@
     "group/media": {
       "orientation": "horizontal",
       "modules": [
-        "custom/media-animation",
         "custom/media-now-playing",
         "custom/media-time"
       ]
@@ -99,10 +98,6 @@
       "on-click": "playerctl play-pause",
       "on-click-middle": "playerctl previous",
       "on-click-right": "playerctl next",
-    },
-    "custom/media-animation": {
-      "exec": "~/.config/waybar/custom_modules/media/media-animation.sh",
-      "tooltip": false,
     },
     "custom/media-time": {
       "exec": "~/.config/waybar/custom_modules/media/media-time.sh",
